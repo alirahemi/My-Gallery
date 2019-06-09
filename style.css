@@ -50,18 +50,20 @@ body{
 .content .logo{
     height: auto;
     width: 120px;
+    /* filter: opacity(50%); */
     border-radius: 7px;
 }
 .content .title{
-    font-size: 2.2rem;
+    font-size: 1.7rem;
     margin-top: 1rem;
     color: rgb(255, 245, 155);
     filter: saturate(150%);
 }
 .content .text{
     line-height: 1.7;
-    margin-top: 1rem;
+    margin-top: .7rem;
     color:#3b3b3b;
+    text-align: justify;
 }
 
 .container{
@@ -84,4 +86,8 @@ a{
 
 h3{
     color: rgb(255, 245, 155);
+}
+
+.impressumText{
+    text-align: justify;
 }
