@@ -163,6 +163,13 @@ footer p{
     color: #f4f4f4;
 }
 
+.iHome{
+    color: #3b3b3b;
+    position: relative;
+    right: 12px;
+
+}
+
 .fab:hover{
     color: rgb(255, 245, 155);
 }
