@@ -158,9 +158,7 @@ footer p{
     color: #3b3b3b;
 }
 
-i{
-    color: #f4f4f4;
-}
+
 
 /* small screen */
 @media(max-width: 560px){
