@@ -165,27 +165,27 @@ footer p{
     }
     
     .content{
-        top: 5%;
-        margin-top: 5px;
+        top: 10%;
+        margin-top: 0px;
         
     }
     
     .content .logo{
-        width:27%;
+        width:35%;
     }
     
     .content .title{
-        width: 70%;
+        width: 80%;
         font-size: 1.2rem;
         position: relative;
-        left: 40px;
+        left: 25px;
     }
     
     .content .text{
-        font-size: .9rem;
+        display: none;
     }
 
-    .showcase:hover .giseleFreunde{
+    /* .showcase:hover .giseleFreunde{
         content: '';
         font-size: .7rem;
         top: 25%;
@@ -196,10 +196,10 @@ footer p{
         filter: opacity(100%);
         -webkit-filter: opacity(100%);
         transition: all 1000ms;
-    }
+    } */
 
-    .showcase .giseleFreunde #gisele{
-        font-size: .6rem;
+    .showcase .giseleFreunde{
+        display: none;
     }
     
     .grid-3, .grid-2{
@@ -211,10 +211,14 @@ footer p{
         border-bottom:rgb(114, 114, 114) dashed 1px;
     }
 
-    .pÜbermich, .impressumText{
-        text-align: justify;
-    }
-
 }
 
-
+/* Landscape */
+@media(max-height:500px){
+    .content .text{
+        display: none;
+    }
+    .content .logo{
+        top: 0;
+    }
+}
