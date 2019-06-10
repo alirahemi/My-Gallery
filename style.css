@@ -11,7 +11,7 @@ body{
     content: '';
     height: 100vh;
     width: 100%;
-    background-image: url(image/showcase.jpg);
+    background-image: url(image/bremen.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -97,6 +97,7 @@ details{
     font-size: 1.7rem;
     margin-top: 1rem;
     color: rgb(255, 245, 155);
+    /* font: bolder; */
     filter: saturate(150%);
     border: #3b3b3b 1px solid;
 }
@@ -170,6 +171,11 @@ footer p{
 @media(max-width: 560px){
     .showcase::after{
         height: 100vh;
+        background-position: -30rem;
+        display: block;
+        filter: blur(5px);
+        -webkit-filter: blur(5px);
+        transition: all 1000ms;
     }
     
     .content{
@@ -190,15 +196,16 @@ footer p{
     }
     
     .content .text{
-        position: relative;
+        /* position: relative;
         top: 60%;
         width: 250px;
-        left: 7%;
+        left: 7%; */
+        display: none;
     }
 
-    .showcase::after{
+    /* .showcase::after{
         filter: blur(0);
-    }
+    } */
 
     /* .showcase:hover .giseleFreunde{
         content: '';
