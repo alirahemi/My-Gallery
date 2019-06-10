@@ -158,7 +158,13 @@ footer p{
     color: #3b3b3b;
 }
 
+.fab{
+    color: #f4f4f4;
+}
 
+.fab:hover{
+    color: rgb(255, 245, 155);
+}
 
 /* small screen */
 @media(max-width: 560px){
