@@ -196,6 +196,10 @@ footer p{
         left: 7%;
     }
 
+    .showcase::after{
+        filter: blur(0);
+    }
+
     /* .showcase:hover .giseleFreunde{
         content: '';
         font-size: .7rem;
