@@ -169,7 +169,7 @@ footer p{
 /* small screen */
 @media(max-width: 560px){
     .showcase::after{
-        height: 50vh;
+        height: 100vh;
     }
     
     .content{
@@ -190,7 +190,10 @@ footer p{
     }
     
     .content .text{
-        display: none;
+        position: relative;
+        top: 30%;
+        width: 250px;
+        left: 7%;
     }
 
     /* .showcase:hover .giseleFreunde{
