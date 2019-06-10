@@ -175,7 +175,7 @@ footer p{
 @media(max-width: 560px){
     .showcase::after{
         height: 100vh;
-        background-position: -30rem;
+        background-position: -25rem;
         display: block;
         filter: blur(5px);
         -webkit-filter: blur(5px);
