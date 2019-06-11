@@ -91,6 +91,10 @@ body{
     /* font-size: 1rem; */
 }
 
+section{
+    margin: 2rem 0;
+}
+
 details{
     font-size: 1rem;
 }
@@ -125,23 +129,44 @@ details{
     padding: 2rem 1rem;
 }
 
+.instaImg{
+    width: 500px;
+    height: auto;
+}
+
 .grid-3{
     display: grid;
     grid-gap: 100px;
     grid-template-columns: repeat(3, 1fr);
 }
+
+.grid-2{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+}
 .grid-1{
     display: grid;
     grid-template-columns: 1fr;
+    
 }
+
+.iHome, .copyRight{
+    margin: 2rem 0;
+}
+
 
 a{
     text-decoration: none;
-    color: rgb(255, 245, 155);
+    color: rgb(255, 0, 200);
+}
+a:hover{
+    color: rgb(255, 0, 200);
+
 }
 
 h3{
-    color: rgb(255, 245, 155);
+    color: rgb(255, 66, 214);
 }
 
 footer{
@@ -169,7 +194,7 @@ footer p{
 }
 
 .fab{
-    color: #f4f4f4;
+    color: #3b3b3b;
 }
 
 .iHome{
@@ -177,7 +202,7 @@ footer p{
 }
 
 .fab:hover{
-    color: rgb(255, 245, 155);
+    color: rgb(255, 66, 214);
 }
 
 /* small screen */
@@ -237,7 +262,7 @@ footer p{
         display: none;
     }
     
-    .grid-3{
+    .grid-3, .grid-2{
         grid-gap: 20px;
         grid-template-columns: 1fr;
     }
