@@ -130,10 +130,9 @@ details{
     grid-gap: 100px;
     grid-template-columns: repeat(3, 1fr);
 }
-.grid-2{
+.grid-1{
     display: grid;
-    grid-gap: 20px;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
 }
 
 a{
@@ -238,7 +237,7 @@ footer p{
         display: none;
     }
     
-    .grid-3, .grid-2{
+    .grid-3{
         grid-gap: 20px;
         grid-template-columns: 1fr;
     }
