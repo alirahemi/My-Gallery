@@ -164,7 +164,7 @@ details{
 }
 
 .instaImg{
-    width: 500px;
+    max-width: 100%;
     height: auto;
 }
 
@@ -308,11 +308,6 @@ footer p{
 
     .services div{
         border-bottom:rgb(114, 114, 114) dashed 1px;
-    }
-
-    .instaImg{
-        width: 320px;;
-        height: auto;
     }
 
 }
