@@ -7,6 +7,10 @@ body{
 
 }
 
+.smalllogo{
+    display: none;
+}
+
 .slide-show{
     max-width: 1440px;
     margin: auto;
@@ -277,22 +281,21 @@ section .fa-3x:hover, .fa-3x:hover{
         transition: all 1000ms;
     }
     
-    .content{
-        top: 10%;
-        margin-top: 0px;
-        
+    
+    .anmeldenbox{
+        display: none;
     }
     
     .content .logo{
         width:35%;
     }
     
-    .content .title{
+    /* .content .title{
         width: 80%;
         font-size: 1.2rem;
         position: relative;
         left: 25px;
-    }
+    } */
     
     .content .text{
         /* position: relative;
@@ -331,6 +334,30 @@ section .fa-3x:hover, .fa-3x:hover{
     .services div{
         border-bottom:rgb(114, 114, 114) dashed 1px;
     }
+
+    .nav{
+        display: none;
+    }
+
+    .logo{
+        position: relative;
+        width: 170px;
+        top: 20px;
+        left: 32%;
+        margin: auto;
+    }
+
+    .anmeldenbox{
+        position: none;
+    }
+
+    .smalllogo{
+        display: inline;
+        
+        width: 200px;
+    }
+
+   
 
 }
 
