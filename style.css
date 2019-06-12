@@ -8,11 +8,12 @@ body{
 }
 
 .slide-show{
-    max-width: 960px;
+    max-width: 1440px;
     margin: auto;
     overflow: hidden;
-    padding: 2rem 1rem;
-}						
+    padding: 1rem 1rem;
+}		
+				
 
 /* .showcase::after{
     content: '';
@@ -35,16 +36,17 @@ body{
     transition: all 1000ms;
 } */
 
-.showcase:hover .content{
+/* .showcase:hover .content{
     filter: blur(10px);
     -webkit-filter: blur(10px);
     filter: opacity(0%);
     -webkit-filter: opacity(0%);
     transition: all 1000ms;
-}
+} */
 
 .content{
-    display: none;
+    /* float: left; */
+    /* display: none; */
     /* position: absolute;
     z-index: 1;
     top: 10%;
@@ -56,6 +58,14 @@ body{
     text-align: center;
     transition: all 1000ms; */
 }
+
+/* .clearfix:after {
+        content: ".";
+        clear: both;
+        display: block;
+        visibility: hidden;
+        height: 0px;
+    } */
 
 .showcase .giseleFreunde{
     display: none;
@@ -99,11 +109,24 @@ details{
     font-size: 1rem;
 }
 
-.content .logo{
+.logo{
+    float: left;
+    margin-right: 20px;
     height: auto;
-    width: 120px;
+    width: 100px;
     /* filter: opacity(50%); */
     border-radius: 7px;
+    
+}
+
+.nav-link{
+    color: #f4f4f4;
+
+}
+
+.nav-link:hover{
+    color: #f4f4f4;
+    
 }
 
 .content .title{
@@ -193,8 +216,13 @@ footer p{
     color: #f4f4f4;
 }
 
-.fab{
+.fab, .fas{
     color: #3b3b3b;
+}
+
+.fa-stamp{
+    color: #f4f4f4;
+
 }
 
 .iHome{
