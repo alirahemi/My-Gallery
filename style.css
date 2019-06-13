@@ -16,7 +16,14 @@ body{
     margin: auto;
     overflow: hidden;
     padding: 0rem 1rem;
-}		
+}	
+
+.carousel-item img{
+    /* border-radius: 10px; */
+    border: 1px solid #f4f4f4;
+}
+
+
 
 .showcase .logoNav{
     max-width: 1440px;
