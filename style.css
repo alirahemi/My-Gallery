@@ -308,6 +308,11 @@ section .fa-3x:hover, .fa-3x:hover{
     .content .logo{
         width:35%;
     }
+
+    .btSlider{
+        display: none;
+    }
+
     
     /* .content .title{
         width: 80%;
