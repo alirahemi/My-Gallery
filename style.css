@@ -209,7 +209,7 @@ details{
 
 .grid-3{
     display: grid;
-    grid-gap: 100px;
+    grid-gap: 30px;
     grid-template-columns: repeat(3, 1fr);
 }
 
@@ -273,14 +273,19 @@ section .fa-3x:hover, .fa-3x:hover{
     color: rgb(0, 168, 247);
 }
 
-.imprint h3, #instagramÜberblick h3{
+.imprint h3, #neuigkeiten h3{
     color: rgb(255, 245, 155);
 }
 
-.imprint a, #instagramÜberblick a{
+.imprint a, #neuigkeiten a{
     color: rgb(255, 245, 155);
     text-decoration: none;
 }
+
+/* #neuigkeiten .splite{
+    border-bottom: #f4f4f4 dashed 1px;
+} */
+
 
 
 
